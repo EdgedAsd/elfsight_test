@@ -1,0 +1,26 @@
+.photo-window {
+	background-color: rgba(0,0,0,0.5);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 30;
+}
+
+.photo-window__image {
+	width: 600px;
+	height: 600px;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 50px auto;
+}
+
+.close-btn {
+	position: absolute;
+	left: 50px;
+	top: 50px;
+	color: #ddd;
+	cursor: pointer;
+	font-size: 2rem;
+}
